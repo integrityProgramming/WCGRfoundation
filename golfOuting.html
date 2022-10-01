@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="swag.css">
+    <!-- BOOTSTRAP FOR CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<!-- FontAwesome -->
+<script src="https://kit.fontawesome.com/5b1f35e2a5.js" crossorigin="anonymous"></script>
+<script src="skripting.js"></script>
+</head>
+
+<body id="index">
+    <header>
+       <!--<img src="media/images/stockImages/academicLibrary.jpg" alt = "Academic Library" id = "academicLibrary" />-->
+        <img src = "wcfLogo.jpg" alt = "Kappa Alpha Psi Coat of Arms" id = "coatOfArms" />
+        <br><br>
+        <h1>Windy City Guide Right Foundation</h1>
+    </header>
+    <nav id="navbar">
+        <ul>
+            <li ><a href="index.html" class="link hoverLink active">Home</a></li>
+            <li><a href="aboutUs.html" class="link hoverLink">About Us</a></li>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Events</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="golfOuting.html">Golf Outing</a>
+                </div>
+            </div>
+            <li><a href="sponsors.html" class="link hoverLink">Sponsors</a></li>
+       <!--<li><a href="scholarships.html" class="link hoverLink">Scholarship recipients</a></li>-->
+    </ul>
+    </nav>
+    <main>
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'GolfOuting2023')">2023</button>
+            <button class="tablinks" onclick="openCity(event, 'GolfOuting2022')">2022</button>
+            <button class="tablinks" onclick="openCity(event, 'GolfOuting2021')">2021</button>
+          </div>
+          
+          <div id="GolfOuting2023" class="tabcontent">
+            <form action="mailto:geoffreydmetzger@outlook.com" method="post" enctype="text/plain" class="form">
+              <div class="golfoutingContainer">
+                  <h1>Register for the 2023 golfing event</h1>
+                  <hr>
+                  <div class="centerForm">
+                    <label for="firstName" class="text"><b>First Name: </b></label>
+                  <input text="text" placeholder="First Name" name="firstName" id="firstName" required>
+                  <label for="lastName" class="text"><b>Last Name: </b></label>
+                  <input text="text" placeholder="Last Name" name="lastName" id="lastName" required>
+                  <br><br><br>
+                  <label for="address" class="text"><b>Address: </b></label>
+                  <input text="text" placeholder="Address" name="address" id="address" required>
+                  
+                  <label for="city"    class="text"><b>City: </b></label>
+                  <input text="text" placeholder="City" name="city" id="city" required>
+                  <label for="state" class="text"><b>State: </b></label>
+                  <input text="text" placeholder="State" name="state" id="state" required>
+                  <br><br><br>
+                  <label for="phone" class="text"><b>Phone number: </b></label>
+                  <input text="phone" placeholder="Phone Number" name="phone" id="phone" required>
+                  <label for="email" class="text"><b>Email: </b></label>
+                  <input text="email" placeholder="Email" name="email" id="email" required>
+                  <br> <br><br><br>
+                  <button type="submit" class="registerbtn">Register</button>
+                  <br><br>
+                  </div>
+                  
+              </div>
+          </form>
+          </div>
+          
+          <div id="GolfOuting2022" class="tabcontent">
+              <h1 style="text-align:center; font-weight: bold;">2022 Golf Outting</h1>
+              <br>
+              <div>
+                  <table class="golfOuttingTable bottomPadding" style="background-color: #F2EBD7;">
+                      <tr>
+                        <td><a href="pic3.html" alt="link to full size pic"><img src="media/images/golfOutting/IMG-1730.jpg" alt="" class="golfOuttingPic"></a></td>
+                          <td></td>
+                          <td><a href="pic4.html"><img src="media/images/golfOutting/IMG-1733.jpg" alt="" class="golfOuttingPic"></a></td>
+                          <td></td>
+                          <td><a href="pic5.html"><img src="media/images/golfOutting/puttingKontestWinner.jpg" alt="" class="golfOuttingPic"></a></td>
+                      </tr>
+                      <tr>
+                          <td></td>
+                          <td><a href="pic4.html"><img src="media/images/golfOutting/IMG-1733.jpg" alt="" class="golfOuttingPic"></a></td>
+                          <td></td>
+                          <td><a href="pic5.html"><img src="media/images/golfOutting/puttingKontestWinner.jpg" alt="" class="golfOuttingPic"></a></td>
+                          <td></td>
+                          <td><a href="pic6.html"><img src="media/images/golfOutting/IMG-1734.jpg" alt="" class="golfOuttingPic"></a></td>
+                      </tr>
+                      <tr>
+                          <td><a href="pic7.html"><img src="media/images/golfOutting/IMG-1806.jpg" alt="S-G-R and K-A-Psi" class="golfOuttingPic"></a></td>
+                          <td></td>
+                          <td><a href="pic8.html"><img src="media/images/golfOutting/IMG-1825.jpg" alt="" class="golfOuttingPic"></a></td>
+                          <td></td>
+                          <td><a href="pic9.html"><img src="media/images/golfOutting/IMG-1865.jpg" alt="" class="golfOuttingPic"></a></td>
+                      </tr>
+                      <tr>
+                          <td></td>
+                          <td><a href="pic10.html"><img src="media/images/golfOutting/IMG-2005.JPG" alt="" class="golfOuttingPic"></a></td>
+                          <td></td>
+                          <td><a href="pic11.html"><img src="media/images/golfOutting/IMG-2190.jpg" alt="" class="golfOuttingPic"></a></td>
+                          <td></td>
+                          <td><a href="pic12.html"><img src="media/images/golfOutting/IMG-8928.jpg" alt="" class="golfOuttingPic"></a></td>
+                      </tr>
+                  </table>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+          </div>
+          
+          <div id="GolfOuting2021" class="tabcontent">
+            <h1 style="text-align:center; font-weight: bold;">2022 Golf Outting</h1>
+              <br>
+              <div>
+          
+              </div>
+          </div>
+          </div>
+          <br><br><br><br><br><br><br><br><br><br><br>
+    </main>
+
+    <footer id = "footer">
+        <span id="socialMedia">
+            <a href="#"><i class="fa-brands fa-twitter fa-3x"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram fa-3x"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook fa-3x"></i></a>
+        </span>
+        
+        <div id="integrityProgramming">
+            <p>Created by:</p>
+            <p><a href="#" class="ipLink">Integrity Programming</a></p>
+        </div>
+        <ul id="footerNav">
+            <li><a href="contactUs.html" class="link hoverLink">CONTACT US</a></li>
+            <li><a href="komingSoon.html" class="link hoverLink">PRIVACY POLICY</a></li>
+        </ul>
+    </footer>
+
+<script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    </script>
+</body>
+</html>
